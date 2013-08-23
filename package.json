@@ -1,0 +1,36 @@
+{
+	"author": {
+		"name": "Patrik Simek",
+		"url": "http://patriksimek.cz"
+	},
+	"name": "neighborhood",
+	"description": "Sharing objects between multiple NodeJS instances over TCP.",
+	"keywords": [
+		"process",
+		"cluster"
+	],
+	"version": "0.1.0",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/patriksimek/neighborhood"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/mit-license.php"
+		}
+	],
+	"dependencies": {
+		
+	},
+	"devDependencies": {
+		"mocha": ">=1.12.0"
+	},
+	"engines": {
+		"node": ">=0.8"
+	},
+	"scripts": {
+		"test": "mocha --compilers coffee:coffee-script --reporter spec"
+	}
+}
