@@ -1,4 +1,4 @@
-#neighborhood
+#neighborhood [Project abandoned]
 
 Sharing objects between multiple NodeJS instances over TCP.
 
